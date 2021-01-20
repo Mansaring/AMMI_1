@@ -1,0 +1,53 @@
+Last login: Wed Jan 20 11:16:37 on ttys000
+amadou@Amadous-MBP ~ % ls
+Desktop		Downloads	Library		Music		Public
+Documents	Folder_One	Movies		Pictures
+amadou@Amadous-MBP ~ % cd  Documents 
+amadou@Amadous-MBP Documents % ls
+Folder			Terminal Saved Output
+amadou@Amadous-MBP Documents % cd Folder 
+amadou@Amadous-MBP Folder % ls
+Terminal Saved Output
+amadou@Amadous-MBP Folder % git remote add origin https://github.com/Mansaring/AMMI_1.git
+amadou@Amadous-MBP Folder % ls
+Terminal Saved Output
+amadou@Amadous-MBP Folder % git remote add origin https://github.com/Mansaring/AMMI_1.git
+fatal: remote origin already exists.
+amadou@Amadous-MBP Folder % ls
+Terminal Saved Output
+amadou@Amadous-MBP Folder % cd ../..
+amadou@Amadous-MBP ~ % git clone https://github.com/Mansaring/AMMI_1.git 
+Cloning into 'AMMI_1'...
+warning: You appear to have cloned an empty repository.
+amadou@Amadous-MBP ~ % ls
+AMMI_1		Documents	Folder_One	Movies		Pictures
+Desktop		Downloads	Library		Music		Public
+amadou@Amadous-MBP ~ % cd AMMI_1 
+amadou@Amadous-MBP AMMI_1 % ls
+amadou@Amadous-MBP AMMI_1 % nano
+amadou@Amadous-MBP AMMI_1 % nano tester.txt
+
+  GNU nano 2.0.6              File: tester.txt                        Modified  
+
+I am an AMMI student.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    
+ Y Yes
+ N No           ^C Cancel
